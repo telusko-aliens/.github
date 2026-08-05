@@ -1,7 +1,6 @@
 <div align="center">
 
-<!-- Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a7f37&height=200&section=header&text=Telusko&fontSize=80&fontColor=ffffff&fontAlignY=35&desc=Hello%20Aliens!%20👽&descSize=24&descAlignY=55&animation=fadeIn" width="100%" />
+<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/telusko-banner.svg" width="100%" />
 
 </div>
 
@@ -103,7 +102,5 @@ We are a community of **2.7M+ Aliens** learning and building together. Whether y
 ---
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a7f37&height=100&section=footer" width="100%" />
-
+<sub>Made with ❤️ by Telusko</sub>
 </div>

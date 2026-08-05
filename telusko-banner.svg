@@ -1,188 +1,125 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
-  <defs>
-    <!-- Green glow filter -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    
-    <!-- Strong glow for main text -->
-    <filter id="strongGlow">
-      <feGaussianBlur stdDeviation="6" result="blur1"/>
-      <feGaussianBlur stdDeviation="12" result="blur2"/>
-      <feMerge>
-        <feMergeNode in="blur2"/>
-        <feMergeNode in="blur1"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <!-- Subtle glow for particles -->
-    <filter id="particleGlow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <!-- Bottom gradient fade -->
-    <linearGradient id="bottomGlow" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#000000" stop-opacity="1"/>
-      <stop offset="60%" stop-color="#000000" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#0a3d0a" stop-opacity="1"/>
-    </linearGradient>
-
-    <!-- Text gradient -->
-    <linearGradient id="textGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#00ff41"/>
-      <stop offset="40%" stop-color="#00cc33"/>
-      <stop offset="100%" stop-color="#005500"/>
-    </linearGradient>
-
-    <!-- Scanline pattern -->
-    <pattern id="scanlines" patternUnits="userSpaceOnUse" width="1200" height="4">
-      <rect width="1200" height="2" fill="rgba(255,255,255,0.02)"/>
-      <rect y="2" width="1200" height="2" fill="transparent"/>
-    </pattern>
-
-    <!-- Cursor icon -->
-    <g id="cursorIcon">
-      <path d="M0,0 L0,17 L4.5,12.5 L8,19 L10.5,18 L7,11.5 L12,11 Z" fill="#00ff41" stroke="#003300" stroke-width="0.5"/>
-    </g>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
   
   <!-- Background -->
-  <rect width="1200" height="320" fill="url(#bottomGlow)"/>
+  <rect width="1200" height="300" fill="#0d1117"/>
   
-  <!-- Scanlines overlay -->
-  <rect width="1200" height="320" fill="url(#scanlines)" opacity="0.5"/>
+  <!-- Bottom green glow (simple gradient rect) -->
+  <rect y="200" width="1200" height="100" fill="#0d1117"/>
+  <rect y="250" width="1200" height="50" fill="#071207" opacity="0.8"/>
+  <rect y="270" width="1200" height="30" fill="#0a1f0a" opacity="0.6"/>
+  <rect y="285" width="1200" height="15" fill="#0d2b0d" opacity="0.5"/>
 
-  <!-- Animated particles -->
-  <circle cx="100" cy="50" r="1.5" fill="#00ff41" filter="url(#particleGlow)" opacity="0">
-    <animate attributeName="opacity" values="0;0.8;0" dur="3s" repeatCount="indefinite" begin="0s"/>
-    <animate attributeName="cy" values="50;280" dur="3s" repeatCount="indefinite" begin="0s"/>
+  <!-- Corner accents -->
+  <line x1="25" y1="25" x2="70" y2="25" stroke="#00ff41" stroke-width="1.5" opacity="0.5"/>
+  <line x1="25" y1="25" x2="25" y2="70" stroke="#00ff41" stroke-width="1.5" opacity="0.5"/>
+  <line x1="1130" y1="25" x2="1175" y2="25" stroke="#00ff41" stroke-width="1.5" opacity="0.5"/>
+  <line x1="1175" y1="25" x2="1175" y2="70" stroke="#00ff41" stroke-width="1.5" opacity="0.5"/>
+  <line x1="25" y1="275" x2="70" y2="275" stroke="#00ff41" stroke-width="1.5" opacity="0.5"/>
+  <line x1="25" y1="230" x2="25" y2="275" stroke="#00ff41" stroke-width="1.5" opacity="0.5"/>
+  <line x1="1130" y1="275" x2="1175" y2="275" stroke="#00ff41" stroke-width="1.5" opacity="0.5"/>
+  <line x1="1175" y1="230" x2="1175" y2="275" stroke="#00ff41" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Floating particles -->
+  <circle cx="100" cy="50" r="1.5" fill="#00ff41" opacity="0">
+    <animate attributeName="opacity" values="0;0.7;0" dur="3s" repeatCount="indefinite" begin="0s"/>
+    <animate attributeName="cy" values="50;260" dur="3s" repeatCount="indefinite" begin="0s"/>
   </circle>
-  <circle cx="300" cy="30" r="1" fill="#00ff41" filter="url(#particleGlow)" opacity="0">
-    <animate attributeName="opacity" values="0;0.6;0" dur="4s" repeatCount="indefinite" begin="1s"/>
-    <animate attributeName="cy" values="30;290" dur="4s" repeatCount="indefinite" begin="1s"/>
+  <circle cx="250" cy="30" r="1" fill="#00ff41" opacity="0">
+    <animate attributeName="opacity" values="0;0.5;0" dur="4s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="cy" values="30;270" dur="4s" repeatCount="indefinite" begin="1s"/>
   </circle>
-  <circle cx="500" cy="60" r="1.5" fill="#00cc33" filter="url(#particleGlow)" opacity="0">
-    <animate attributeName="opacity" values="0;0.7;0" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
-    <animate attributeName="cy" values="60;300" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+  <circle cx="450" cy="60" r="1.5" fill="#00cc33" opacity="0">
+    <animate attributeName="opacity" values="0;0.6;0" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="cy" values="60;280" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
   </circle>
-  <circle cx="700" cy="20" r="1" fill="#00ff41" filter="url(#particleGlow)" opacity="0">
+  <circle cx="650" cy="20" r="1" fill="#00ff41" opacity="0">
     <animate attributeName="opacity" values="0;0.5;0" dur="4.5s" repeatCount="indefinite" begin="2s"/>
-    <animate attributeName="cy" values="20;310" dur="4.5s" repeatCount="indefinite" begin="2s"/>
+    <animate attributeName="cy" values="20;270" dur="4.5s" repeatCount="indefinite" begin="2s"/>
   </circle>
-  <circle cx="900" cy="40" r="1.5" fill="#00ff41" filter="url(#particleGlow)" opacity="0">
-    <animate attributeName="opacity" values="0;0.8;0" dur="3s" repeatCount="indefinite" begin="1.5s"/>
-    <animate attributeName="cy" values="40;300" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+  <circle cx="850" cy="40" r="1.5" fill="#00ff41" opacity="0">
+    <animate attributeName="opacity" values="0;0.7;0" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+    <animate attributeName="cy" values="40;260" dur="3s" repeatCount="indefinite" begin="1.5s"/>
   </circle>
-  <circle cx="1100" cy="55" r="1" fill="#00cc33" filter="url(#particleGlow)" opacity="0">
+  <circle cx="1050" cy="55" r="1" fill="#00cc33" opacity="0">
     <animate attributeName="opacity" values="0;0.6;0" dur="3.8s" repeatCount="indefinite" begin="0.8s"/>
-    <animate attributeName="cy" values="55;295" dur="3.8s" repeatCount="indefinite" begin="0.8s"/>
+    <animate attributeName="cy" values="55;275" dur="3.8s" repeatCount="indefinite" begin="0.8s"/>
   </circle>
-  <circle cx="200" cy="45" r="1" fill="#00ff41" filter="url(#particleGlow)" opacity="0">
-    <animate attributeName="opacity" values="0;0.5;0" dur="5s" repeatCount="indefinite" begin="3s"/>
-    <animate attributeName="cy" values="45;305" dur="5s" repeatCount="indefinite" begin="3s"/>
+  <circle cx="180" cy="45" r="1" fill="#00ff41" opacity="0">
+    <animate attributeName="opacity" values="0;0.4;0" dur="5s" repeatCount="indefinite" begin="3s"/>
+    <animate attributeName="cy" values="45;280" dur="5s" repeatCount="indefinite" begin="3s"/>
   </circle>
-  <circle cx="1000" cy="35" r="1.5" fill="#00ff41" filter="url(#particleGlow)" opacity="0">
-    <animate attributeName="opacity" values="0;0.7;0" dur="3.2s" repeatCount="indefinite" begin="2.5s"/>
-    <animate attributeName="cy" values="35;285" dur="3.2s" repeatCount="indefinite" begin="2.5s"/>
+  <circle cx="950" cy="35" r="1.5" fill="#00ff41" opacity="0">
+    <animate attributeName="opacity" values="0;0.6;0" dur="3.2s" repeatCount="indefinite" begin="2.5s"/>
+    <animate attributeName="cy" values="35;265" dur="3.2s" repeatCount="indefinite" begin="2.5s"/>
   </circle>
-  <circle cx="600" cy="25" r="1" fill="#00cc33" filter="url(#particleGlow)" opacity="0">
-    <animate attributeName="opacity" values="0;0.6;0" dur="4.2s" repeatCount="indefinite" begin="1.2s"/>
-    <animate attributeName="cy" values="25;295" dur="4.2s" repeatCount="indefinite" begin="1.2s"/>
+  <circle cx="550" cy="25" r="1" fill="#00cc33" opacity="0">
+    <animate attributeName="opacity" values="0;0.5;0" dur="4.2s" repeatCount="indefinite" begin="1.2s"/>
+    <animate attributeName="cy" values="25;275" dur="4.2s" repeatCount="indefinite" begin="1.2s"/>
   </circle>
-  <circle cx="400" cy="70" r="1.5" fill="#00ff41" filter="url(#particleGlow)" opacity="0">
+  <circle cx="750" cy="15" r="1" fill="#00ff41" opacity="0">
+    <animate attributeName="opacity" values="0;0.6;0" dur="3.6s" repeatCount="indefinite" begin="1.8s"/>
+    <animate attributeName="cy" values="15;255" dur="3.6s" repeatCount="indefinite" begin="1.8s"/>
+  </circle>
+  <circle cx="350" cy="70" r="1.5" fill="#00ff41" opacity="0">
     <animate attributeName="opacity" values="0;0.4;0" dur="5.5s" repeatCount="indefinite" begin="0.3s"/>
-    <animate attributeName="cy" values="70;310" dur="5.5s" repeatCount="indefinite" begin="0.3s"/>
+    <animate attributeName="cy" values="70;285" dur="5.5s" repeatCount="indefinite" begin="0.3s"/>
   </circle>
-  <circle cx="800" cy="15" r="1" fill="#00ff41" filter="url(#particleGlow)" opacity="0">
-    <animate attributeName="opacity" values="0;0.7;0" dur="3.6s" repeatCount="indefinite" begin="1.8s"/>
-    <animate attributeName="cy" values="15;275" dur="3.6s" repeatCount="indefinite" begin="1.8s"/>
-  </circle>
-  <circle cx="150" cy="80" r="1" fill="#00cc33" filter="url(#particleGlow)" opacity="0">
+  <circle cx="1150" cy="80" r="1" fill="#00cc33" opacity="0">
     <animate attributeName="opacity" values="0;0.5;0" dur="4.8s" repeatCount="indefinite" begin="3.5s"/>
-    <animate attributeName="cy" values="80;300" dur="4.8s" repeatCount="indefinite" begin="3.5s"/>
+    <animate attributeName="cy" values="80;280" dur="4.8s" repeatCount="indefinite" begin="3.5s"/>
   </circle>
 
-  <!-- Main TELUSKO text with glow -->
-  <text x="600" y="145" text-anchor="middle" font-family="'Arial Black', 'Impact', sans-serif" font-size="120" font-weight="900" fill="url(#textGrad)" filter="url(#strongGlow)" letter-spacing="12">
+  <!-- TELUSKO main text -->
+  <text x="600" y="130" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="110" font-weight="900" fill="#00cc33" letter-spacing="10" opacity="0">
     TELUSKO
-    <animate attributeName="opacity" values="0;1" dur="1.5s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
+  </text>
+  <!-- Text shadow layer -->
+  <text x="600" y="130" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="110" font-weight="900" fill="#00ff41" letter-spacing="10" opacity="0">
+    TELUSKO
+    <animate attributeName="opacity" values="0;0.3" dur="1.2s" fill="freeze"/>
   </text>
 
-  <!-- Subtitle with typing effect -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.5s" fill="freeze"/>
-    <text x="600" y="200" text-anchor="middle" font-family="'Courier New', monospace" font-size="22" fill="#cccccc" letter-spacing="6">
-      - BUILDING NEXT-GENERATION AI ENGINEERS -
-    </text>
-  </g>
+  <!-- Subtitle -->
+  <text x="600" y="185" text-anchor="middle" font-family="Courier New, monospace" font-size="20" fill="#aaaaaa" letter-spacing="5" opacity="0">
+    - BUILDING NEXT-GENERATION AI ENGINEERS -
+    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="1.2s" fill="freeze"/>
+  </text>
 
   <!-- Animated underline -->
-  <line x1="280" y1="215" x2="280" y2="215" stroke="#00ff41" stroke-width="1.5" filter="url(#glow)">
-    <animate attributeName="x2" values="280;920" dur="1s" begin="2s" fill="freeze"/>
-    <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2s" fill="freeze"/>
+  <line x1="300" y1="200" x2="300" y2="200" stroke="#00ff41" stroke-width="1" opacity="0">
+    <animate attributeName="x2" values="300;900" dur="0.8s" begin="2s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;0.6" dur="0.1s" begin="2s" fill="freeze"/>
   </line>
 
   <!-- Loading dots -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="3s" fill="freeze"/>
-    
-    <!-- Dot 1 -->
-    <circle cx="540" cy="250" r="3" fill="#00ff41" filter="url(#particleGlow)">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite" begin="3s"/>
-    </circle>
-    <!-- Dot 2 -->
-    <circle cx="560" cy="250" r="3" fill="#00ff41" filter="url(#particleGlow)">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite" begin="3.2s"/>
-    </circle>
-    <!-- Dot 3 -->
-    <circle cx="580" cy="250" r="3" fill="#00ff41" filter="url(#particleGlow)">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite" begin="3.4s"/>
-    </circle>
-  </g>
+  <circle cx="555" cy="235" r="3" fill="#00ff41" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.3;1;0.3" dur="1.5s" repeatCount="indefinite" begin="2.8s"/>
+  </circle>
+  <circle cx="580" cy="235" r="3" fill="#00ff41" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.3;1;0.3" dur="1.5s" repeatCount="indefinite" begin="3s"/>
+  </circle>
+  <circle cx="605" cy="235" r="3" fill="#00ff41" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.3;1;0.3" dur="1.5s" repeatCount="indefinite" begin="3.2s"/>
+  </circle>
 
-  <!-- www.telusko.com with cursor -->
+  <!-- Cursor arrow -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.5s" fill="freeze"/>
-    
-    <!-- Cursor icon -->
-    <g transform="translate(522, 268) scale(1.2)">
-      <use href="#cursorIcon"/>
-      <!-- Cursor bounce animation -->
-      <animateTransform attributeName="transform" type="translate" values="522,268;522,265;522,268" dur="1.5s" repeatCount="indefinite" begin="3.5s" additive="replace"/>
-    </g>
-    
-    <!-- URL text -->
-    <text x="620" y="285" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#00ff41" filter="url(#glow)">
-      www.telusko.com
-    </text>
+    <path d="M530,250 L530,268 L534,264 L538,272 L541,271 L537,263 L542,262 Z" fill="#00ff41">
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="1.5s" repeatCount="indefinite" begin="3.5s"/>
+    </path>
   </g>
 
-  <!-- Blinking cursor at end -->
-  <rect x="695" y="272" width="2" height="16" fill="#00ff41" opacity="0">
+  <!-- www.telusko.com -->
+  <text x="610" y="268" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#00ff41" opacity="0">
+    www.telusko.com
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.5s" fill="freeze"/>
+  </text>
+
+  <!-- Blinking cursor -->
+  <rect x="683" y="255" width="2" height="16" fill="#00ff41" opacity="0">
     <animate attributeName="opacity" values="0;0;1;1;0" dur="1s" repeatCount="indefinite" begin="4s"/>
   </rect>
-
-  <!-- Corner accents -->
-  <!-- Top left -->
-  <line x1="20" y1="20" x2="60" y2="20" stroke="#00ff41" stroke-width="1.5" opacity="0.4"/>
-  <line x1="20" y1="20" x2="20" y2="60" stroke="#00ff41" stroke-width="1.5" opacity="0.4"/>
-  <!-- Top right -->
-  <line x1="1140" y1="20" x2="1180" y2="20" stroke="#00ff41" stroke-width="1.5" opacity="0.4"/>
-  <line x1="1180" y1="20" x2="1180" y2="60" stroke="#00ff41" stroke-width="1.5" opacity="0.4"/>
-  <!-- Bottom left -->
-  <line x1="20" y1="300" x2="60" y2="300" stroke="#00ff41" stroke-width="1.5" opacity="0.4"/>
-  <line x1="20" y1="260" x2="20" y2="300" stroke="#00ff41" stroke-width="1.5" opacity="0.4"/>
-  <!-- Bottom right -->
-  <line x1="1140" y1="300" x2="1180" y2="300" stroke="#00ff41" stroke-width="1.5" opacity="0.4"/>
-  <line x1="1180" y1="260" x2="1180" y2="300" stroke="#00ff41" stroke-width="1.5" opacity="0.4"/>
 
 </svg>

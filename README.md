@@ -80,11 +80,11 @@ We had the privilege of connecting with **James Gosling**, the creator of Java, 
 <table>
 <tr>
 <td width="50%">
-<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/profile/images/gosling-behind-the-scenes.jpeg" alt="Behind the scenes - Navin Reddy in conversation with James Gosling" width="100%" />
+<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/gosling-behind-the-scenes.jpeg" alt="Behind the scenes - Navin Reddy in conversation with James Gosling" width="100%" />
 <p align="center"><em>Behind the scenes at Telusko Studio</em></p>
 </td>
 <td width="50%">
-<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/profile/images/gosling-conversation.jpeg" alt="Navin Reddy and James Gosling" width="100%" />
+<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/gosling-conversation.jpeg" alt="Navin Reddy and James Gosling" width="100%" />
 <p align="center"><em>Navin Reddy in conversation with James Gosling</em></p>
 </td>
 </tr>

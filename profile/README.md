@@ -102,5 +102,7 @@ We are a community of **2.7M+ Aliens** learning and building together. Whether y
 ---
 
 <div align="center">
-<sub>Made with ❤️ by Telusko</sub>
+
+<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/telusko-footer.svg" width="100%" />
+
 </div>

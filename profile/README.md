@@ -44,18 +44,13 @@ Telusko is an education platform founded by **Navin Reddy**, helping millions of
 
 ### In Conversation with James Gosling
 
-We connected with **James Gosling**, the creator of Java, for a conversation about the journey of Java and the future of programming.
+We have taught Java to millions of learners. Getting to sit down with the person who created it was something else entirely. A dream we carried for years, done.
 
-<table>
-<tr>
-<td width="50%">
-<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/gosling-behind-the-scenes.jpeg" width="100%" />
-</td>
-<td width="50%">
-<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/gosling-conversation.jpeg" width="100%" />
-</td>
-</tr>
-</table>
+<p align="center">
+<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/gosling-behind-the-scenes.jpeg" width="45%" />
+&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/gosling-conversation.jpeg" width="45%" />
+</p>
 
 ---
 

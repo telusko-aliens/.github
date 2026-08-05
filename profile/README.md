@@ -5,28 +5,19 @@
 </div>
 
 <p align="center">
-<strong>Official source code and project repositories from Telusko courses. Learn, practice, and build along.</strong>
-</p>
-
-<p align="center">
 <a href="https://www.youtube.com/@Telusko"><img src="https://img.shields.io/badge/YouTube-2.7M+ Subscribers-FF0000?style=flat&logo=youtube&logoColor=white" /></a>
 <a href="https://www.telusko.com/"><img src="https://img.shields.io/badge/Website-telusko.com-1a7f37?style=flat&logo=google-chrome&logoColor=white" /></a>
 <a href="https://linkedin.com/company/telusko/"><img src="https://img.shields.io/badge/LinkedIn-Telusko-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
 <a href="https://x.com/navinreddy20"><img src="https://img.shields.io/badge/X-@navinreddy20-000000?style=flat&logo=x&logoColor=white" /></a>
-<a href="https://www.facebook.com/teluskolearnings"><img src="https://img.shields.io/badge/Facebook-Telusko-1877F2?style=flat&logo=facebook&logoColor=white" /></a>
 </p>
 
 ---
 
-### 🛸 &nbsp; About Us
-
-Telusko is an education platform founded by **Navin Reddy**, helping millions of learners across the globe become job-ready developers. We make technology simple, fun, and accessible to everyone.
-
-This GitHub organization is home to all our course source code, project repositories, and learning resources. Everything here is open for you to explore, practice, and build along with our tutorials.
+Telusko is an education platform founded by **Navin Reddy**, helping millions of learners become job-ready developers. This is the official GitHub home for all our course source code, project repositories, and learning resources.
 
 ---
 
-### 🧑‍💻 &nbsp; What We Teach
+### Tech Stack
 
 <table>
 <tr>
@@ -60,7 +51,7 @@ This GitHub organization is home to all our course source code, project reposito
 </td>
 </tr>
 <tr>
-<td><b>DevOps & Cloud</b></td>
+<td><b>DevOps</b></td>
 <td>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
@@ -72,32 +63,20 @@ This GitHub organization is home to all our course source code, project reposito
 
 ---
 
-### ☕ &nbsp; A Conversation with the Creator of Java
+### In Conversation with James Gosling
 
-We had the privilege of connecting with **James Gosling**, the creator of Java, for an in-depth conversation about the journey of Java, its evolution, and the future of programming. Moments like these remind us why we do what we do.
+We connected with **James Gosling**, the creator of Java, for a conversation about the journey of Java and the future of programming.
 
 <table>
 <tr>
 <td width="50%">
-<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/gosling-behind-the-scenes.jpeg" alt="Behind the scenes - Navin Reddy in conversation with James Gosling" width="100%" />
-<p align="center"><em>Behind the scenes at Telusko Studio</em></p>
+<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/gosling-behind-the-scenes.jpeg" width="100%" />
 </td>
 <td width="50%">
-<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/gosling-conversation.jpeg" alt="Navin Reddy and James Gosling" width="100%" />
-<p align="center"><em>Navin Reddy in conversation with James Gosling</em></p>
+<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/gosling-conversation.jpeg" width="100%" />
 </td>
 </tr>
 </table>
-
----
-
-### 🤝 &nbsp; Join the Community
-
-We are a community of **2.7M+ Aliens** learning and building together. Whether you are just starting out or looking to level up, there is something here for you.
-
-- 🎥 &nbsp; Watch tutorials on [YouTube](https://www.youtube.com/@Telusko)
-- 🌐 &nbsp; Visit [telusko.com](https://www.telusko.com/) for courses
-- 💬 &nbsp; Connect with us on [LinkedIn](https://linkedin.com/company/telusko/) and [X](https://x.com/navinreddy20)
 
 ---
 

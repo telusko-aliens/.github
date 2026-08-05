@@ -44,10 +44,16 @@ Telusko is an education platform founded by **Navin Reddy**, helping millions of
 
 ### Navin Reddy x James Gosling
 
-We taught Java to millions. Then we sat down with the man who created it. A dream we carried for years, done.
+We taught Java to millions. Then we sat down with the man who created it. He talked about the first software he was paid to write, the decisions behind Java, and what AI actually means for developers.
 
 <p align="center">
+<a href="https://www.youtube.com/watch?v=LxhZhOOYKTM">
 <img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/gosling-conversation.jpeg" width="70%" />
+</a>
+</p>
+
+<p align="center">
+<a href="https://www.youtube.com/watch?v=LxhZhOOYKTM"><img src="https://img.shields.io/badge/Watch the full conversation-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
 </p>
 
 ---

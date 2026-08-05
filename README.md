@@ -73,6 +73,25 @@ This GitHub organization is home to all our course source code, project reposito
 
 ---
 
+### ☕ &nbsp; A Conversation with the Creator of Java
+
+We had the privilege of connecting with **James Gosling**, the creator of Java, for an in-depth conversation about the journey of Java, its evolution, and the future of programming. Moments like these remind us why we do what we do.
+
+<table>
+<tr>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/profile/images/gosling-behind-the-scenes.jpeg" alt="Behind the scenes - Navin Reddy in conversation with James Gosling" width="100%" />
+<p align="center"><em>Behind the scenes at Telusko Studio</em></p>
+</td>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/profile/images/gosling-conversation.jpeg" alt="Navin Reddy and James Gosling" width="100%" />
+<p align="center"><em>Navin Reddy in conversation with James Gosling</em></p>
+</td>
+</tr>
+</table>
+
+---
+
 ### 🤝 &nbsp; Join the Community
 
 We are a community of **2.7M+ Aliens** learning and building together. Whether you are just starting out or looking to level up, there is something here for you.

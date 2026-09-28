@@ -22,7 +22,7 @@ Telusko is an education platform founded by **Navin Reddy**, helping millions of
 
 <p align="center">
 <a href="https://docs.telusko.com/">
-<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/telusko-docs.svg" width="100%" alt="Telusko Docs" />
+<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/telusko-docs.svg?v=3" width="100%" alt="Telusko Docs" />
 </a>
 </p>
 
@@ -87,6 +87,6 @@ We taught Java to millions. Then we sat down with the man who created it. He tal
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/telusko-footer.svg" width="100%" alt="We don't teach, we educate." />
+<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/telusko-footer.svg?v=3" width="100%" alt="We don't teach, we educate." />
 
 </div>

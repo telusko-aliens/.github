@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/telusko-hero.svg" width="100%" alt="Telusko" />
+<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/telusko-banner.svg" width="100%" />
 
 </div>
 
 <p align="center">
 <a href="https://www.youtube.com/@Telusko"><img src="https://img.shields.io/badge/YouTube-2.7M+ Subscribers-FF0000?style=flat&logo=youtube&logoColor=white" /></a>
 <a href="https://www.telusko.com/"><img src="https://img.shields.io/badge/Website-telusko.com-1a7f37?style=flat&logo=google-chrome&logoColor=white" /></a>
-<a href="https://docs.telusko.com/"><img src="https://img.shields.io/badge/Docs-docs.telusko.com-39ff7a?style=flat&logo=readthedocs&logoColor=black" /></a>
+<a href="https://docs.telusko.com/"><img src="https://img.shields.io/badge/Docs-docs.telusko.com-00d632?style=flat&logo=readthedocs&logoColor=white" /></a>
 <a href="https://linkedin.com/company/telusko/"><img src="https://img.shields.io/badge/LinkedIn-Telusko-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
 <a href="https://x.com/navinreddy20"><img src="https://img.shields.io/badge/X-@navinreddy20-000000?style=flat&logo=x&logoColor=white" /></a>
 </p>
@@ -18,11 +18,15 @@ Telusko is an education platform founded by **Navin Reddy**, helping millions of
 
 ---
 
+### Telusko Docs
+
 <p align="center">
-<a href="https://docs.telusko.com/docs">
-<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/telusko-docs.svg" width="100%" alt="Telusko Docs — choose your path" />
+<a href="https://docs.telusko.com/">
+<img src="https://raw.githubusercontent.com/telusko-aliens/.github/main/telusko-docs.svg" width="100%" alt="Telusko Docs" />
 </a>
 </p>
+
+Friendly, practical documentation that goes hand in hand with our courses. Clear explanations, runnable code examples, and guides focused on building real projects.
 
 <p align="center">
 <a href="https://docs.telusko.com/docs/java/getting-started"><img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" /></a>
@@ -31,6 +35,11 @@ Telusko is an education platform founded by **Navin Reddy**, helping millions of
 <a href="https://docs.telusko.com/docs/spring-ai/getting-started"><img src="https://img.shields.io/badge/Spring AI-6DB33F?style=for-the-badge&logo=spring&logoColor=white" /></a>
 <a href="https://docs.telusko.com/docs/aws/getting-started"><img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" /></a>
 <a href="https://docs.telusko.com/docs/system-design/getting-started"><img src="https://img.shields.io/badge/System Design-6f42c1?style=for-the-badge&logo=diagramsdotnet&logoColor=white" /></a>
+</p>
+
+<p align="center">
+<a href="https://docs.telusko.com/docs"><img src="https://img.shields.io/badge/Explore the docs-00d632?style=for-the-badge&logo=bookstack&logoColor=black" /></a>
+<a href="https://github.com/telusko-aliens/Telusko-Docs"><img src="https://img.shields.io/badge/Contribute on GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
 ---
